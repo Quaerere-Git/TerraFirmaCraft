@@ -1,35 +1,35 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Armor",
+  "name": "盔甲",
   "category": "tfc:mechanics",
   "icon": "tfc:metal/chestplate/copper",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Armor$() provides protection against attacks from predators and monsters. The quality of armor scales with the tier of the $(thing)Metal$(), with $(l:mechanics/leather_making)Leather$() being the weakest and $(l:mechanics/steel)Colored Steels$() being the strongest."
+      "text": "$(thing)盔甲$()能够用来抵御来自捕食者和怪物的攻击。盔甲的品质与$(thing)材料$()的等级正相关，其中$(l:mechanics/leather_making)皮革$()盔甲最弱，而$(l:mechanics/steel)红钢和蓝钢$()盔甲最强。"
     },
     {
       "type": "tfc:leather_knapping_recipe",
       "recipe": "tfc:leather_knapping/chestplate",
-      "text": "Leather armor is $(thing)Knapped$() from $(l:mechanics/leather_making)Leather$(). It does not last long, but provides some decent protection if you have a full suit."
+      "text": "皮革盔甲由$(l:mechanics/leather_making)皮革$()$(thing)塑形$()得到。它的耐久并不高，但当穿齐一整套时能够提供还算不错的保护。"
     },
     {
       "type": "tfc:anvil_recipe",
       "recipe": "tfc:anvil/copper_unfinished_helmet",
-      "text": "$(thing)Metal Armor$() requires multiple processing steps in an $(l:mechanics/anvils)Anvil$(). First, an $(thing)unfinished$() armor piece must be smithed. These require a $(thing)Double Sheet$() of the metal, except for boots which require a single sheet."
+      "text": "制作$(thing)金属盔甲$()需要在$(l:mechanics/anvils)砧$()上进行多次操作。首先，必须使用$(thing)双层薄板$()（对于靴则只需要薄板）打造出$(thing)未完成的$()盔甲部件。"
     },
     {
       "type": "tfc:welding_recipe",
       "recipe": "tfc:welding/bismuth_bronze_greaves",
-      "text": "Next, a $(thing)Sheet$() must be $(l:mechanics/anvils#welding)Welded$() to the armor piece to finish it. Chestplates require a $(thing)Double Sheet$() to be finished."
+      "text": "接着，将一个$(thing)薄板$()与未完成的盔甲部件进行$(l:mechanics/anvils#welding)焊接$()以完成盔甲的制作。对于胸甲则需要用$(thing)双层薄板$()焊接以完成制作。"
     },
     {
       "type": "patchouli:text",
-      "text": "Armor that is of the same tier but different metals may be subtly different. These are expressed in durability, as well as $(l:mechanics/damage_types)Damage Resistances$(). In order of increasing durability, the bronzes are ranked $(thing)Bismuth Bronze$(), regular $(thing)Bronze$(), and then $(thing)Black Bronze$(). For colored steels, $(thing)Red Steel$() lasts longer than $(thing)Blue Steel$()."
+      "text": "同一等级而不同种类的金属材料制成的盔甲可能在耐久以及$(l:mechanics/damage_types)对伤害的抵抗$()上略有不同。其中$(thing)铋铜$()、$(thing)青铜$()、$(thing)黑铜$()的耐久依次增加，而$(thing)红钢$()的耐久要高于$(thing)蓝钢$()。"
     },
     {
       "type": "patchouli:text",
-      "text": "Steel armor also provides benefits such as $(thing)Toughness$() and $(thing)Knockback Resistance$(). Regular $(thing)Steel$() has 1 toughness, $(thing)Black Steel$() has 2 toughness, and the $(thing)Colored Steels$() have 3 toughness. $(thing)Black Steel$() has 5% knockback resistance, whereas the $(thing)Colored Steels$() have 10%."
+      "text": "钢以上等级的盔甲还具有$(thing)韧性$()、$(thing)击退抗性$()等加成。普通的$(thing)钢$()盔甲拥有 1 点韧性，$(thing)黑钢$()拥有 2 点，而$(thing)红钢和蓝钢$() 拥有 3 点。另外，$(thing)黑钢$()拥有 5% 的击退抗性，而$(thing)红钢和蓝钢$()则为 10%。"
     }
   ],
   "read_by_default": true
