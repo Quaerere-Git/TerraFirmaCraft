@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Dairy$() is a $(l:getting_started/food_and_water#nutrients)Nutrient$() obtained from the milk produced by $(l:mechanics/animal_husbandry#dairy_animals)Dairy Animals$(). It can be drank, or processed into $(thing)Cheese$(). Drinking can be done out of a jug, and always restores $(l:getting_started/food_and_water#thirst)Thirst$(). However, it only adds to nutrition when drank after eating a food. Practically, this means that drinking milk twice in a row is ineffectual. A meal must precede it.",
+      "text": "$(thing)乳制品$()是一种通过摄入$(l:mechanics/animal_husbandry#dairy_animals)产奶动物$()生产的奶获得的$(l:getting_started/food_and_water#nutrients)营养元素$()。奶可以直接饮用，也可以被加工成$(thing)奶酪$()。装在陶罐中的奶可以直接饮用，并且可以回复$(l:getting_started/food_and_water#thirst)口渴度$()，但只有在吃完食物后饮用才能摄入营养元素。事实上，这意味着连续饮用两次奶没有效果，必须先吃一次其他食物。",
       "title": "乳制品"
     },
     {
@@ -16,12 +16,12 @@
     {
       "type": "tfc:sealed_barrel_recipe",
       "recipe": "tfc:barrel/curdling",
-      "text": "将醋奶混合之后密封大桶，奶就会开始逐渐凝固成炼乳，只需静待 8 小时即可。"
+      "text": "将醋奶混合之后密封大桶，奶就会开始逐渐凝固成凝乳，只需静待 8 小时即可。"
     },
     {
       "type": "tfc:sealed_barrel_recipe",
       "recipe": "tfc:barrel/cheese",
-      "text": "制成炼乳之后先不要开盖，继续静置 8 小时就能将炼乳凝固成奶酪了。奶酪是一种保质期很长的乳制品，且可以作为某些餐点（比如$(l:mechanics/sandwiches)三明治$()）的食材以提供乳制品营养元素。"
+      "text": "制成凝乳之后先不要开盖，继续静置 8 小时就能将凝乳凝固成奶酪了。奶酪是一种保质期很长的乳制品，且可以作为某些餐点（比如$(l:mechanics/sandwiches)三明治$()）的食材以提供乳制品营养元素。"
     }
   ],
   "read_by_default": true
